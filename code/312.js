@@ -12,4 +12,4 @@ function orbitalPeriod(arr) {
   return res;
 }
 
-console.log(orbitalPeriod([{name : "sputnik", avgAlt : 35873.5553}]));
+orbitalPeriod([{name : "sputnik", avgAlt : 35873.5553}]);

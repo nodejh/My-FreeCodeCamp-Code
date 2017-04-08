@@ -1,3 +1,10 @@
+## 311. Make a Person
+
+用下面给定的方法构造一个对象.
+
+方法有 getFirstName(), getLastName(), getFullName(), setFirstName(first), setLastName(last), and setFullName(firstAndLast).
+
+```javascript
 var Person = function(firstAndLast) {
   var fullName = firstAndLast;
 
@@ -21,3 +28,7 @@ var Person = function(firstAndLast) {
     fullName = name;
   };
 };
+
+var bob = new Person('Bob Ross');
+bob.getFullName();
+```
